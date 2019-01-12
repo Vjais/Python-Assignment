@@ -14,6 +14,7 @@ commands = [
     'sleep 5',
     'uptime'
 ]
+<hr>
 Task 2 - Send user data to Intercom
 We have a MySQL database that stores user information and the table spec for a simplified version of user is given below:
 
