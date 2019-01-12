@@ -15,8 +15,8 @@ commands = [
     'uptime'
 ]</p>
 <hr>
-Task 2 - Send user data to Intercom
-We have a MySQL database that stores user information and the table spec for a simplified version of user is given below:
+<h1>Task 2 - Send user data to Intercom</h1>
+<p>We have a MySQL database that stores user information and the table spec for a simplified version of user is given below:
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
@@ -28,4 +28,4 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 Please write a simple script in Python that goes over our user database and creates users on Intercom.
 
-You will need to use Intercom's API for this, but do not sign up for the service or use any real API keys for that. 
+You will need to use Intercom's API for this, but do not sign up for the service or use any real API keys for that. </p>
