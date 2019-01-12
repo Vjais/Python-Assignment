@@ -1,6 +1,6 @@
 # Python-Assignment
-Task 1 - Run a list of commands
-In commands, you are given a list of commands to execute. Use Popen to execute all commands at the same time.
+<h1>Task 1 - Run a list of commands</h1>
+<p>In commands, you are given a list of commands to execute. Use Popen to execute all commands at the same time.
 When the execution of all commands are finished, display a report with, total elapsed time, average / maximum / minimum execution time among all commands.
 Remember that processes started with Popen must be poll()'ed to make sure that they're finished and terminated properly.
 commands list is:
@@ -13,7 +13,7 @@ commands = [
     'date',
     'sleep 5',
     'uptime'
-]
+]</p>
 <hr>
 Task 2 - Send user data to Intercom
 We have a MySQL database that stores user information and the table spec for a simplified version of user is given below:
