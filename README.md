@@ -17,15 +17,15 @@ commands = [
 <hr>
 <h1>Task 2 - Send user data to Intercom</h1>
 <p>We have a MySQL database that stores user information and the table spec for a simplified version of user is given below:</p>
-
-<p>DROP TABLE IF EXISTS `user`;
+<ul>
+DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` text NOT NULL,
   `email` varchar(120) NOT NULL
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;</p>
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;</ul>
 <p>Please write a simple script in Python that goes over our user database and creates users on Intercom.
 
 You will need to use Intercom's API for this, but do not sign up for the service or use any real API keys for that. </p>
